@@ -1,0 +1,186 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, table, form {
+   margin: 0;
+   padding: 0;
+}
+
+/* Apply some global styles */
+body {
+   font-family: Arial, sans-serif;
+   background-color: #f6f6f6;
+   line-height: 1.6;
+   padding: 20px;
+}
+
+h1 {
+   color: #333;
+}
+
+/* Header styles */
+header {
+   background-color: #008080;
+   color: white;
+   text-align: top;
+   padding: 20px 0;
+}
+/* Style for the header */
+.header {
+   background-color: #aa2323; 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 20px;
+}
+/* Style for the logo image */
+.header img {
+   max-height: 300px; /* Adjust the size as needed */
+}
+/* Style for the top navigation bar */
+.top-nav ul {
+   list-style: none;
+   display: flex;
+   margin: 0;
+   padding: 0;
+}
+
+.top-nav li {
+   margin: 0 20px;
+}
+
+.top-nav a {
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+}
+
+
+nav ul {
+   list-style: none;
+   padding: 0;
+}
+
+nav li {
+   display: inline;
+   margin-right: 20px;
+}
+
+nav a {
+   color: white;
+   text-decoration: none;
+}
+
+/* Main section styles */
+section {
+   padding: 20px;
+   background-color: white;
+   margin: 20px;
+}
+
+h2 {
+   color: #008080;
+}
+
+h3 {
+   color: #008080;
+}
+
+p {
+   color: #333;
+}
+
+/* Image styles */
+img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+   margin: 20px auto;
+}
+/* CSS for the Image Container */
+.Image-container {
+   display: flex;
+   align-items: center;
+}
+
+.Image-container img {
+   width: 200px; /* Set the width to the desired size */
+   height: 200px; /* Set the height to the desired size */
+   margin: 50px; /* Add margin to separate images */
+}
+
+
+
+/* Video styles */
+video {
+   max-width: 100%;
+   display: block;
+   margin: 20px auto;
+}
+
+/* List styles */
+ul {
+   list-style-type: disc;
+}
+
+li {
+   color: #333;
+}
+
+/* Form styles */
+form {
+   margin: 20px 0;
+}
+
+label, input, textarea, button {
+   display: block;
+   margin: 10px 0;
+}
+
+/* Table styles */
+table {
+   width: 100%;
+   border-collapse: collapse;
+}
+
+th, td {
+   padding: 10px;
+   border: 1px solid #008080;
+   text-align: left;
+}
+
+/* Section-specific styles */
+#section1 {
+   background-color: #f9f9f9;
+}
+
+#section2 {
+   background-color: #f6f6f6;
+}
+footer {
+   background-color:beige; /* Choose your desired background color */
+  color:fuchsia; /* Text color */
+   padding: 20px;
+   text-align: center;
+}
+
+.footer-content {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.social-icons a {
+   margin-right: 5px; /* Adjust the spacing between social icons */
+   display: inline-block;
+   text-decoration: none;
+}
+
+.newsletter, .customer-service {
+   text-align: left;
+   flex: 1;
+   margin-right: 20px; /* Adjust the spacing between sections */
+}
+
+.copyright {
+   margin-top: 20px; /* Adjust the spacing between the content and the copyright notice */
+   font-size: 12px;
+}

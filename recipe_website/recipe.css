@@ -1,0 +1,132 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main content styles */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+/* Recipe cards */
+.recipe-display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.recipe-display article {
+    flex: 0 1 calc(33.333% - 10px);
+    margin: 0 5px 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.recipe-display article:hover {
+    transform: scale(1.02);
+}
+
+.recipe-display img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Fall theme */
+body.fall, body.fall header, body.fall nav, body.fall .recipe-display article {
+    background-color: #FAD02E; /* Fall theme background color */
+    color: #5A3A0B; /* Fall theme text color */
+}
+
+body.fall nav {
+    background-color: #5A3A0B; /* Fall theme navigation background color */
+}
+
+body.fall .recipe-display article {
+    border: 2px solid #5A3A0B; /* Fall theme recipe card border */
+}
+
+/* Winter theme */
+body.winter, body.winter header, body.winter nav, body.winter .recipe-display article {
+    background-color: #87CEEB; /* Winter theme background color (Sky Blue) */
+    color: #000; /* Winter theme text color (Black) */
+}
+
+body.winter nav {
+    background-color: #000; /* Winter theme navigation background color (Black) */
+}
+
+body.winter .recipe-display article {
+    border: 2px solid #000; /* Winter theme recipe card border (Black) */
+}
+
+/* Summer theme */
+body.summer, body.summer header, body.summer nav, body.summer .recipe-display article {
+    background-color: #FFD700; /* Summer theme background color (Gold) */
+    color: #228B22; /* Summer theme text color (Forest Green) */
+}
+
+body.summer nav {
+    background-color: #228B22; /* Summer theme navigation background color (Forest Green) */
+}
+
+body.summer .recipe-display article {
+    border: 2px solid #228B22; /* Summer theme recipe card border (Forest Green) */
+}
+
+/* Spring theme */
+body.spring, body.spring header, body.spring nav, body.spring .recipe-display article {
+    background-color: #71B352; /* Spring theme background color (Fresh Green) */
+    color: #000; /* Spring theme text color (Black) */
+}
+
+body.spring nav {
+    background-color: #FFD700; /* Spring theme navigation background color (Yellow) */
+}
+
+body.spring .recipe-display article {
+    border: 2px solid #FFD700; /* Spring theme recipe card border (Yellow) */
+}
