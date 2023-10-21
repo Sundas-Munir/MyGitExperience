@@ -5,16 +5,24 @@ body, h1, h2, h3, p, ul, li, table, form {
 }
 
 /* Apply some global styles */
-body {
+ body {
    font-family: Arial, sans-serif;
-   background-color: #f6f6f6;
    line-height: 1.6;
    padding: 20px;
-}
+} 
+
+  header {
+   background-color: hsl(0, 81%, 36%);
+   color: #ffffff;
+   text-align: center;
+   text-decoration:underline;
+   align-items: end;
+   padding: 1px;
+}  
 
 h1 {
-   color: #333;
-}
+   color: #000000;
+} */
 
 /* Header styles */
 header {
@@ -23,17 +31,11 @@ header {
    text-align: top;
    padding: 20px 0;
 }
-/* Style for the header */
-.header {
-   background-color: #aa2323; 
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding: 10px 20px;
-}
+
+
 /* Style for the logo image */
-.header img {
-   max-height: 300px; /* Adjust the size as needed */
+ .header img {
+   max-height: 300px; 
 }
 /* Style for the top navigation bar */
 .top-nav ul {
@@ -94,17 +96,20 @@ img {
    height: auto;
    display: block;
    margin: 20px auto;
+  
 }
 /* CSS for the Image Container */
 .Image-container {
-   display: flex;
+   display: grid;
    align-items: center;
+  
 }
 
 .Image-container img {
-   width: 200px; /* Set the width to the desired size */
-   height: 200px; /* Set the height to the desired size */
-   margin: 50px; /* Add margin to separate images */
+   width: 200px; 
+   height: 200px; 
+   margin: 50px; 
+  
 }
 
 
@@ -156,8 +161,8 @@ th, td {
    background-color: #f6f6f6;
 }
 footer {
-   background-color:beige; /* Choose your desired background color */
-  color:fuchsia; /* Text color */
+   background-color:beige; 
+  color:fuchsia; 
    padding: 20px;
    text-align: center;
 }
@@ -169,7 +174,7 @@ footer {
 }
 
 .social-icons a {
-   margin-right: 5px; /* Adjust the spacing between social icons */
+   margin-right: 5px; 
    display: inline-block;
    text-decoration: none;
 }
@@ -177,10 +182,25 @@ footer {
 .newsletter, .customer-service {
    text-align: left;
    flex: 1;
-   margin-right: 20px; /* Adjust the spacing between sections */
+   margin-right: 20px; 
 }
 
 .copyright {
-   margin-top: 20px; /* Adjust the spacing between the content and the copyright notice */
+   margin-top: 20px; 
    font-size: 12px;
 }
+
+body {
+   font-family: Arial, sans-serif;
+   background-color: #c9cccc;
+   color: #140101;
+   margin: 0;
+   padding: 0;
+}
+
+
+
+
+
+
+
