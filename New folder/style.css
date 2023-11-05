@@ -1,0 +1,288 @@
+/* some default styles */
+body, h1, h2, h3, p, ul, li, table, form {
+   margin: 0;
+   padding: 0;
+}
+
+/* Apply styles */
+ body {
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+   padding: 20px;
+   
+} 
+
+  header {
+   background-color: hsl(0, 81%, 36%);
+   color: #ffffff;
+   text-align: center;
+   text-decoration:underline;
+   align-items: end;
+   padding: 1px;
+}  
+
+h1 {
+   color: #000000;
+} */
+
+/* Header styles */
+header {
+   background-color: #008080;
+   color: white;
+   text-align: top;
+   padding: 20px 0;
+}
+
+
+/* Style for the logo image */
+ .header img {
+   max-height: 300px; 
+}
+/* Style for the top navigation bar */
+.top-nav ul {
+   list-style: none;
+   display: flex;
+   margin: 0;
+   padding: 0;
+}
+
+.top-nav li {
+   margin: 0 20px;
+}
+
+.top-nav a {
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+}
+
+
+nav ul {
+   list-style: none;
+   padding: 0;
+}
+
+nav li {
+   display: inline;
+   margin-right: 20px;
+}
+
+nav a {
+   color: white;
+   text-decoration: none;
+}
+
+/* Main section styles */
+section {
+   padding: 20px;
+   background-color: white;
+   margin: 20px;
+}
+
+h2 {
+   color: #008080;
+}
+
+h3 {
+   color: #008080;
+}
+
+p {
+   color: #333;
+}
+
+/* Image styles */
+img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+   margin: 20px auto;
+  
+}
+/* Image Container */
+.Image-container {
+   display: grid;
+   align-items: center;
+  
+}
+
+.Image-container img {
+   width: 200px; 
+   height: 200px; 
+   margin: 50px; 
+  
+}
+
+
+
+/* Video styles */
+video {
+   max-width: 100%;
+   display: block;
+   margin: 20px auto;
+}
+
+/* List styles */
+ul {
+   list-style-type: disc;
+}
+
+li {
+   color: #333;
+}
+
+/* Form styles */
+form {
+   margin: 20px 0;
+}
+
+label, input, textarea, button {
+   display: block;
+   margin: 10px 0;
+}
+
+/* Table styles */
+table {
+   width: 100%;
+   border-collapse: collapse;
+}
+
+th, td {
+   padding: 10px;
+   border: 1px solid #008080;
+   text-align: left;
+}
+
+/* Section-specific styles */
+#section1 {
+   background-color: #f9f9f9;
+}
+
+#section2 {
+   background-color: #f6f6f6;
+}
+footer {
+   background-color:beige; 
+  color:fuchsia; 
+   padding: 20px;
+   text-align: center;
+}
+
+.footer-content {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.social-icons a {
+   margin-right: 5px; 
+   display: inline-block;
+   text-decoration: none;
+}
+
+.newsletter, .customer-service {
+   text-align: left;
+   flex: 1;
+   margin-right: 20px; 
+}
+
+.copyright {
+   margin-top: 20px; 
+   font-size: 12px;
+}
+
+body {
+   font-family: Arial, sans-serif;
+   background-color: #c9cccc;
+   color: #140101;
+   margin: 0;
+   padding: 0;
+}
+
+/*might like section*/
+
+#recipes-you-might-like {
+   background-color: #f7f7f7; 
+   padding: 20px; 
+   border-radius: 10px; 
+}
+
+#recipes-you-might-like h2 {
+   font-size: 24px; 
+   color: #333; 
+   text-align: center; 
+}
+
+#recipes-you-might-like p {
+   font-size: 16px; 
+   color: #666; 
+   text-align: center; 
+}
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+ 
+
+   body {
+       font-size: 16px;
+   }
+
+   /* Navigation menu items  vertically */
+   .top-nav ul {
+       flex-direction: column;
+   }
+
+   /* Padding and spacing for touch-friendly elements */
+   button, a {
+       padding: 10px;
+       margin: 5px;
+   }
+
+   /* smaller images */
+   img {
+       max-width: 100%;
+       height: auto;
+   }
+}
+
+/* Desktop styles */
+@media screen and (min-width: 769px) {
+  
+
+   /* Wider layout */
+   .container {
+       max-width: 1200px;
+       margin: 0 auto;
+   }
+
+   /* Larger font size for desktop*/
+   body {
+       font-size: 18px;
+   }
+
+   /* Horizontal navigation menu for desktop */
+   .top-nav ul {
+       flex-direction: row;
+   }
+
+   /* Desktop-specific styles for interactive elements */
+   button, a {
+       padding: 15px;
+       margin: 10px;
+   }
+
+   /* Styles for larger images on desktop*/
+   img {
+       max-width: 100%;
+       height: auto;
+   }
+}
+
+
+
+
+
+
+
+
+
